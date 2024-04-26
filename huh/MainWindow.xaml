@@ -26,11 +26,6 @@
         </Style>
     </Window.Resources>
 
-
-    <Window.DataContext>
-        <local:ViewGraph/>
-    </Window.DataContext>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="400"/>
@@ -502,7 +497,7 @@
             <StackPanel Name="spHChart" Visibility="Collapsed">
             </StackPanel>
 
-            <StackPanel Name="spVChart" Visibility="Visible">
+            <StackPanel Name="spVChart" Visibility="Collapsed">
 
                 <syncfusion:SfChart Header="Chart" Width="500">
 
