@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-
-namespace huh
+﻿namespace huh
 {
     public class GraphField
     {
         public string graphName { get; set; }
         public int graphValue { get; set; }
 
-        public GraphField(string graphName, int graphValue)
+        public GraphField()
         {
-            this.graphName = graphName;
-            this.graphValue = graphValue;
+            graphName = new String("");
+            graphValue = 0;
         }
-
-        public GraphField() { }
     }
 }
